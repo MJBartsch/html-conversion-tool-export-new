@@ -1,0 +1,51 @@
+{
+  "888sport": {
+    "name": "888Sport",
+    "logo": "888-sport-logo.jpg",
+    "banner": "888sport-press-pack-4.webp",
+    "tagline": "Voted Best Online Sportsbook • Trusted Since 1997",
+    "rating": "5/5",
+    "stars_filled": 5,
+    "stars_empty": 0,
+    "min_deposit": "£5",
+    "cryptos": "5",
+    "payout_speed": "Instant-24hrs",
+    "best_for": "Low Minimums"
+  },
+  "888casino": {
+    "name": "888 Casino",
+    "logo": "888-Casino-Logo.png",
+    "banner": "888sport-press-pack-4.webp",
+    "tagline": "Voted Best Online Casino • Trusted Since 1997",
+    "rating": "6.9/10",
+    "stars_filled": 6,
+    "stars_empty": 4,
+    "min_deposit": "£10",
+    "founded": "1997",
+    "total_games": "2,000+",
+    "withdrawal_time": "1-7 days",
+    "mobile_app": "✓ Yes"
+  },
+  "betfair": {
+    "name": "Betfair",
+    "logo": "Betfair-Logo.png",
+    "rating": "5/5",
+    "stars_filled": 5,
+    "stars_empty": 0,
+    "min_deposit": "£10",
+    "cryptos": "2",
+    "payout_speed": "Under 2hrs",
+    "best_for": "Fast Payouts"
+  },
+  "virginbet": {
+    "name": "Virgin Bet",
+    "logo": "Virgin-Bet-Logo.png",
+    "rating": "4.5/5",
+    "stars_filled": 4,
+    "stars_empty": 1,
+    "min_deposit": "£5",
+    "cryptos": "2",
+    "payout_speed": "Instant-24hrs",
+    "best_for": "Mobile Betting"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "site_settings": {
+    "base_url": "https://b3i.tech",
+    "image_path": "/wp-content/uploads/2025/11/",
+    "full_image_url_template": "{base_url}{image_path}{filename}"
+  },
+
+  "image_templates": {
+    "platform_logo_qv": {
+      "class": "qv-platform-logo",
+      "width": "90",
+      "height": "90",
+      "loading": "eager",
+      "alt_template": "{platform_name} crypto betting platform logo",
+      "title_template": "{platform_name} - {key_feature}"
+    },
+    "platform_logo_card": {
+      "class": "platform-logo",
+      "width": "120",
+      "height": "120",
+      "loading": "lazy",
+      "alt_template": "{platform_name} platform logo",
+      "title_template": "{platform_name} - {tagline}"
+    },
+    "platform_logo_top10": {
+      "class": "top10-logo",
+      "width": "80",
+      "height": "80",
+      "loading": "lazy",
+      "alt_template": "{platform_name} crypto betting platform logo",
+      "title_template": "{platform_name} - {key_feature}"
+    },
+    "content_image": {
+      "style": "width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);",
+      "loading": "lazy",
+      "alt_template": "{description}",
+      "title_template": "{title}"
+    }
+  },
+
+  "badge_types": {
+    "best_overall": {
+      "text": "BEST OVERALL",
+      "class": "platform-badge best-overall"
+    },
+    "fast_payouts": {
+      "text": "FAST PAYOUTS",
+      "class": "platform-badge lowest-fees"
+    },
+    "mobile": {
+      "text": "MOBILE",
+      "class": "platform-badge beginner"
+    },
+    "under_2hrs": {
+      "text": "UNDER 2HRS",
+      "class": "qv-highlight-badge"
+    },
+    "top_mobile": {
+      "text": "TOP MOBILE",
+      "class": "qv-highlight-badge"
+    }
+  },
+
+  "link_settings": {
+    "affiliate": {
+      "rel": "nofollow noopener noreferrer",
+      "target": "_blank",
+      "aria_label_template": "Visit {platform_name} website (opens in new window)",
+      "screen_reader_text": "(opens in new window)"
+    },
+    "internal": {
+      "aria_label_template": "Jump to {section_name}"
+    },
+    "reference": {
+      "rel": "noopener noreferrer",
+      "target": "_blank",
+      "aria_label_template": "Visit {site_name} website (opens in new window)"
+    }
+  },
+
+  "disclaimers": {
+    "gambling_warning": "18+ Only: Please gamble responsibly. Visit BeGambleAware.org for support.",
+    "investment_warning": "Don't invest unless you're prepared to lose all the money you invest. This is a high-risk investment and you should not expect to be protected if something goes wrong.",
+    "review_disclaimer": "This review represents our assessment based on information available in {month} {year}. Offerings may change without notice. Always verify current details on the official website and gamble responsibly."
+  }
+}

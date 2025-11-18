@@ -1,0 +1,43 @@
+<!-- Top 10 Item Component -->
+<div class="top10-item">
+    <div class="top10-rank">
+        <span class="rank-number">{{rank}}</span>
+    </div>
+
+    <div class="top10-content">
+        <div class="top10-header">
+            <img
+                src="{{platform_logo_url}}"
+                alt="{{platform_name}} logo"
+                class="top10-logo"
+                width="80"
+                height="80"
+                loading="lazy"
+            >
+            <div class="top10-info">
+                <h3 class="top10-name">{{platform_name}}</h3>
+                <div class="top10-rating">
+                    <span class="rating-stars" role="img" aria-label="{{rating_num}} out of {{rating_total}} stars">
+                        {{star_html}}
+                    </span>
+                    <span class="rating-value">{{rating_num}}/{{rating_total}}</span>
+                </div>
+            </div>
+            {{badge}}
+        </div>
+
+        <div class="top10-details">
+            {{key_features}}
+        </div>
+
+        <div class="top10-cta">
+            <a href="{{affiliate_url}}"
+               class="cta-button"
+               rel="nofollow noopener noreferrer"
+               target="_blank"
+               aria-label="Visit {{platform_name}} website (opens in new window)">
+                {{cta_text}} <span aria-hidden="true">→</span>
+            </a>
+        </div>
+    </div>
+</div>
